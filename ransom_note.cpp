@@ -1,11 +1,11 @@
-bbool canConstruct(string ransomNote, string magazine) {
+bool canConstruct(string ransomNote, string magazine) {
         
         int len = magazine.length();
         int r_len = ransomNote.length();
 
         // create an unordered map letterCount
         // key: letters in magazine
-        // value: occurences of a letter in magazine
+        // value: occurences of each letter in magazine
         unordered_map<char, int> letterCount;
         
 
