@@ -1,4 +1,4 @@
-bool canConstruct(string ransomNote, string magazine) {
+bbool canConstruct(string ransomNote, string magazine) {
         
         int len = magazine.length();
         int r_len = ransomNote.length();
@@ -27,3 +27,4 @@ bool canConstruct(string ransomNote, string magazine) {
         
         return true;
     }
+
